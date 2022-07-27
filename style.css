@@ -13,6 +13,12 @@
 .item-position{
     top: 35%;
 }
+.custom-mt-5{
+    margin-top: 5rem;
+}
+.company img{
+    width: 130px;
+}
 
 @media screen and (max-width: 576px) {
     .course img {
