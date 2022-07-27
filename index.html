@@ -33,10 +33,10 @@
                 <a class="nav-link" href="#">Success</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">About</a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contact Us</a>
+                <a class="nav-link" href="#">Contact Us</a>
               </li>
             </ul>
             <nav class="navbar">
@@ -169,6 +169,49 @@
     </div>
   </section>
   <!-- Courses Area End -->
+
+  <!-- Modal  Area Start -->
+    <section class="pt-5">
+        <div class="row border bg-primary p-5 rounded-4">
+              <div class=" col-8 d-flex justify-content-center align-items-center">
+                <div class="">
+                    <h1 class="text-light">Ready to join?</h1>
+                    <p class="text-light">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+              </div>
+            <div class="col-4 d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-outline-dark fw-bold btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Talk To Us</button>  
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Recipient:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- Modal Area End -->
+
     <!-- Accordion section start  -->
     <section class="pt-5">
      <div class="d-flex justify-content-center">
@@ -216,7 +259,7 @@
                       </button>
                     </h2>
                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">A semantic element clearly describes its meaning to both the browser and the developer.Examples of non-semantic elements: <span class="fw-bold">&lt;div&gt;</span> and <span class="fw-bold">&lt;span&gt;</span>  - Tells nothing about its content. <br>
+                      <div class="accordion-body">A semantic element clearly describes its meaning to both the browser and the developer. <br> Examples of non-semantic elements: <span class="fw-bold">&lt;div&gt;</span> and <span class="fw-bold">&lt;span&gt;</span>  - Tells nothing about its content. <br>
                      Examples of semantic elements: <span class="fw-bold">&lt;from&gt;</span> <span class="fw-bold">&lt;table&gt;</span> and <span class="fw-bold">&lt;article&gt;</span>- Clearly defines its content.
                     </div>
                   </div>
@@ -224,6 +267,10 @@
         </div>
     </section>
     <!-- Accordion section end  -->
+
+
+
+
   </main>
   <!-- footer area  -->
   <footer class="mt-5">
