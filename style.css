@@ -19,9 +19,17 @@
 .company img{
     width: 130px;
 }
+.institution img{
+    width: 100%;
+    height: 550px;
+}
 
 @media screen and (max-width: 576px) {
     .course img {
         width: 100%;
+    }
+    institution img{
+        width: 100%;
+        height: 400px;
     }
 }
